@@ -10,6 +10,9 @@ When learning new skills and building small projects to reinforce learning, it c
 # Getting started
 Run 'npm install' then 'npm run build'
 
+# BrowserSync
+BrowserSync will open a new server that watches the CSS and JS files in the dist folders. By default, it reloads when there is a change to any HTML files. However, you are welcome to customise this in the package.json NPM script 'dev-watch'.
+
 # Sass
 The Minimal Project Starter compiles Sass into CSS and outputs it as regular, compressed CSS in the dist/css folder.
 
